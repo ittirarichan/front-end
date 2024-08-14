@@ -1,0 +1,15 @@
+.container{
+background-image: url("../../work1/images/2.jpg");
+height: 100vh;
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+.box{
+position: absolute;
+Left: 50%;
+top: 50%
+}
