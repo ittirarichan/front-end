@@ -99,30 +99,6 @@ h1 {
     margin: 20px;  
     }
 
-    .btn2 {
-        text-align: center;
-        padding: 10px;
-        color: white; 
-    }
-
-    .btn2 button {
-        padding: 10px 20px;
-        font-size: 1em;
-        background-color: #f10000; 
-        color: white;
-        border: none;
-        border-radius: 5px;
-        margin-top: 20px;
-    }
-
-    .btn2 h2{
-        font-family: "Lato", sans-serif;
-    }
-
-    .btn2 button:hover {
-        background-color: #fb4300; 
-    }
-
     p{
         margin-top: 10px;
     }
