@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.container{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.nav{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo{
+    margin-right: 20px;
+}
+.left{
+    align-items: center;
+    display: flex;
+}
+
+.right{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+
+p{
+    margin-top: 5px;
+    margin-right:25px;
+    color: gray;
+    font-size: 17px;
+}
+
+.icon{
+    margin-right: 25px;
+    height: 20px;
+}
+
+.avatar{
+    height: 35px;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    object-fit: cover;  
+    background-color: red;  
+}
+
+.container1{
+    flex: 1;
+}
+
+.container main{
+    height: 35%;
+}
+.container{
+    flex: 1;
+}

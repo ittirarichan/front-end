@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(212, 239, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.reg {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+}
+
+.reg h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:rgb(69, 65, 65);
+}
+
+.reg .forms {
+    margin-bottom: 15px;
+}
+
+.reg .forms label {
+    display: block;
+    margin-bottom: 5px;
+    color:rgb(69, 65, 65);
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.reg .forms textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.reg .forms input[type="radio"] {
+    margin-right: 10px;
+}
+
+.reg .forms .radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.reg .forms input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.reg .consentbox {
+    display: flex;
+    align-items: center;
+}
+.consentbox>label{
+    color:rgb(69, 65, 65); 
+}
+
+.reg .forms input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 165, 0);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.required {
+    color: red;
+}

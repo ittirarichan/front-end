@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./contact.css">
+
+    <div class="reg"><h2>Contact Us</h2>
+
+        <div class="forms">
+            <label for="first-name">First Name <span class="required">*</span></label>
+            <input type="text" id="first-name" name="first-name" class="input-field" required>
+        </div>
+
+        <div class="forms">
+            <label for="last-name">Last Name <span class="required">*</span></label>
+            <input type="text" id="first-name" name="first-name" class="input-field" required>
+        </div>
+
+        <div class="forms">
+            <label for="email">Email Address <span class="required">*</span></label>
+            <input type="email" id="email" name="email" class="input-field" required>
+        </div>
+
+        <div class="forms">
+            <label>Query Type <span class="required">*</span></label>
+            <div class="radio-group">
+                <label><input type="radio" name="query-type" value="general-enquiry" required> General Enquiry</label>
+
+                <label><input type="radio" name="query-type" value="support-request" required> Support Request</label>
+            </div>
+        </div>
+
+        <div class="forms">
+            <label for="message">Message <span class="required">*</span></label>
+
+            <textarea id="message" name="message" class="input-field" required></textarea>
+        </div>
+
+        <div class="consentbox">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">I consent to being contacted by the team <span class="required">*</span></label>
+        </div>
+
+        <div class="forms">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+        
+
+</body>
+</body>
+</html>
