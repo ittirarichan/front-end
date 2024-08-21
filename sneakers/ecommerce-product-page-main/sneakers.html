@@ -3,39 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SNEAKERS</title>
+    <title>wok5</title>
     <link rel="stylesheet" href="./sneakers.css" />
   </head>
   <body>
-    <div class="nav">
-      <div class="left">
-        <img class="logo" src="./images/logo.svg" alt="No Image" />
-        <p>Collections</p>
-        <p>Men</p>
-        <p>Women</p>
-        <p>About</p>
-        <p>Contact</p>
-      </div>
-      <div class="right">
-        <img class="icon" src="./images/icon-cart.svg" alt="No image" />
-        <img class="avatar" src="./images/image-avatar.png" alt="" />
-      </div>
-    </div>
-    <hr>
     <div class="container">
-        <div class="container1">
-            <img class="main" src="./images/image-product-1.jpg" alt="">
-            <div class="containera">
-                <img src="./images/image-product-1-thumbnail.jpg" alt="">
-            <img src="./images/image-product-2-thumbnail.jpg" alt="">
-            <img src="./images/image-product-3-thumbnail.jpg" alt="">
-            <img src="./images/image-product-4-thumbnail.jpg" alt="">
+      <nav class="nav">
+        <div class="left">
+          <h2>sneakers</h2>
+          <h3>Collections</h3>
+          <h3>Men</h3>
+          <h3>Women</h3>
+          <h3>About</h3>
+          <h3>Contact</h3>
+        </div>
+        <div class="right">
+          <img src="./images/icon-cart.svg" alt="Cart" />
+          <img src="./images/image-avatar.png" alt="User Avatar" />
+        </div>
+      </nav>
+      <hr />
+      <div class="main">
+        <div class="image">
+          <div class="main-image">
+            <img src="./images/image-product-1.jpg" alt="Product Image" />
+          </div>
+          <div class="thumbnail-images">
+            <div class="thumb-main">
+              <img
+                src="./images/image-product-1-thumbnail.jpg"
+                alt="Thumbnail 1"
+              />
             </div>
+            <img
+              src="./images/image-product-2-thumbnail.jpg"
+              alt="Thumbnail 2"
+            />
+            <img
+              src="./images/image-product-3-thumbnail.jpg"
+              alt="Thumbnail 3"
+            />
+            <img
+              src="./images/image-product-4-thumbnail.jpg"
+              alt="Thumbnail 4"
+            />
+          </div>
         </div>
-        <div class="container2">
-            
+        <div class="p1">
+          <h3>SNEAKER COMPANY</h3>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer.
+          </p>
+          <div class="prices">
+            <span class="product-price">$125.00</span>
+            <span class="discount">50%</span>
+          </div>
+          <div class="old-price">
+            <span class="original-price">$250.00</span>
+          </div>
+          <div class="box">
+            <button>
+              <img src="./images/icon-minus.svg" alt="Decrease quantity" />
+              <span class="quantity">0</span>
+              <img src="./images/icon-plus.svg" alt="Increase quantity" />
+              <button class="cart-button">
+                <img src="./images/icon-cart.svg" alt="cart" />Add to Cart
+              </button>
+            </button>
+          </div>
         </div>
-
+      </div>
     </div>
   </body>
 </html>
