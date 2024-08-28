@@ -1,0 +1,33 @@
+.container{
+    width: 100px;;
+    height: 100px;
+    background-color:aqua;
+    animation: example;
+    animation-duration: .1s;
+
+    position: relative;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse; */
+    /* animation-delay: 0s; */
+
+}
+
+
+@keyframes example{
+    from{ background-color:aqua; }
+    to{ background-color: black;
+    border-radius:100%}
+
+    0%{background-color: red ;left:0px; top:0px;} 
+    10%{background-color: black ;left:100px; top:650px;}
+    20%{background-color: orangered ;left:200px; top: 0px;}
+    30%{background-color: blue ;left:300px; top:650px;}
+    40%{background-color: orangered ;left:400px; top:0px;}
+    50%{background-color: green ;left:500; top:650px;}
+    60%{background-color: blue ;left:600; top:0px;}
+    70%{background-color: green ;left:700px; top:650px;}
+    80%{background-color: red ;left:800px; top:0px;}
+    90%{background-color: rgb(58, 255, 4) ;left:900px; top:650px;}
+    100%{background-color: rgb(0, 170, 255) ;left:1000px; top:0px;}
+
+}
